@@ -1,0 +1,255 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #06c;
+}
+img {
+  max-width: 100%;
+}
+/* first section */
+.product-title {
+  font-weight: 600;
+  font-size: 40px;
+}
+.description-wrapper {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.price-wrapper {
+  font-size: 0.80em;
+  padding-top: 0px;
+}
+.logo-wrapper {
+  padding: 10px 0;
+}
+
+.links-wrapper ul {
+  list-style: none;
+}
+
+.links-wrapper {
+  padding: 15px 0;
+}
+.links-wrapper ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.links-wrapper ul li a {
+  color: #06c;
+  text-decoration: none;
+}
+.links-wrapper ul li a:hover {
+  color: #000;
+}
+/* .links-wrapper ul li a:after {
+} */
+.links-wrapper {
+  font-size: 0.95em;
+  font-weight: 600;
+}
+.links-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+.main-highlight-wrapper {
+  background-image: url(../Assets/images/home/iphone_12_us__fo0stbby242m_small.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #FAFAFA;
+  padding-top: 30px;
+  text-align: center;
+  
+}
+.second-hightlight-wrapper {
+  background-image: url(../Assets/images/home/iphone_12_pro_us__e5oyysg4k0ya_small.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 40px; 
+  color: #fff;
+}
+.third-heghlight-wrapper {
+  background-image: url(../Assets/images/home/hero_apple_card__bt4lpouoeyoi_small.jpg);
+  height: 500px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 20px;
+}
+.exclusions {
+  color: black;
+  font-size: 0.5em;
+}
+.fourth-heghlight-wrapper  .left-side-wrapper{
+background-image: url(../Assets/images/home/tile__ipad-air_small.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: initial;
+  text-align: center;
+  padding-top: 420px;
+		
+	}
+  .ipad {
+    display: none;
+  }
+  .fourth-heghlight-wrapper .right-side-wrapper {
+	background-image: url(../Assets/images/home/tile__watch_small.jpg);
+  height: 500px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  text-align: center;
+  
+  color: #fff;
+  padding-top: 15px;
+  /* background-color: black; */
+}
+  
+  
+	.fifth-heghlight-wrapper .left-side-wrapper {
+  background-image: url(../Assets/images/home/tile__fitness_small.jpg);
+  height: 500px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  text-align: center;
+  color: #000;
+  padding-top: 15px;
+	}
+	.fifth-heghlight-wrapper .right-side-wrapper {
+  background-image: url(../Assets/images/home/promo_tile_musici_small.jpg);
+  height: 500px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  text-align: center;
+  color: #000;
+  padding-top: 15px;
+  margin-top: 15px;
+
+}
+.links-wrapper .watch a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
+}
+.sixth-heghlight-wrapper .left-side-wrapper {
+  background-image: url(../Assets/images/home/promo_tile_whm__dl74ww4vl2ye_small.jpg);
+  height: 500px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  text-align: center;
+  color: #000;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+.sixth-heghlight-wrapper .right-side-wrapper {
+  background-image: url(../Assets/images/home/promo_tile__calls_small.jpg);
+  height: 500px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  text-align: center;
+  color: #fff;
+  padding-top: 40px;
+  margin-top: 15px;
+}
+ .tv {
+	padding-top: 350px;
+	font-size: o.85;
+}
+.watch-more-wrapper a{
+  color: #fff;
+  font-size: 0.95em;
+}
+.watch-more-wrapper a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+   content: "\f144";
+  padding-left: 15px;
+}  
+@media (min-width: 768px) {
+    .main-highlight-wrapper {
+  
+  background-image:url(../Assets/images/home/iphone_12_us__fo0stbby242m_largetall.jpg);
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #FAFAFA;
+}
+.second-hightlight-wrapper {
+  background-image: url(../Assets/images/home/iphone_12_pro_us__e5oyysg4k0ya_largetall.jpg);
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 65px 20px;
+}
+.third-heghlight-wrapper {
+  background-image: url(../Assets/images/home/hero_apple_card__bt4lpouoeyoi_largetall.jpg);
+  height: 600px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  padding: 50px 20px;
+}
+.fourth-heghlight-wrapper .left-side-wrapper {
+  background-image: url(../Assets/images/home/tile__ipad_large.jpg);
+  height: 500px;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 20px;
+  }
+  .ipad {
+    display: block;
+    font-weight: 600;
+  font-size: 40px;
+  
+}
+.fourth-heghlight-wrapper .right-side-wrapper {
+
+  background-image: url(../Assets/images/home/tile__watch_medium.jpg);
+  height: 500px;
+  background-position: bottom; 
+  background-repeat: no-repeat;
+  background-size: initial;
+  text-align: center;
+  padding-top: 30px;
+  color: #fff;
+  background-color: black;
+  
+}
+ 
+
+.fifth-heghlight-wrapper .left-side-wrapper {
+  background-image: url(../Assets/images/home/tile__fitness_small.jpg);
+  height: 500px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  padding-top: 15px;
+
+}
+.sixth-heghlight-wrapper .left-side-wrapper {
+  background-image: url(../Assets/images/home/promo_tile_whm__dl74ww4vl2ye_large.jpg);
+  height: 500px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  padding-top: 15px;
+}
+
+}

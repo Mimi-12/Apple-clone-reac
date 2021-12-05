@@ -1,0 +1,10 @@
+.videoTitle a{
+    color: black;
+    font-weight: 700;
+}
+.videoDesc{
+    font-size: 11px;
+}
+.singleVideoWrapper{
+    background-color: rgb(245, 240, 236); 
+}

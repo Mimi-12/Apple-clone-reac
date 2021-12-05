@@ -1,0 +1,22 @@
+
+.covid-section {
+  color: white;
+  text-align: center;
+  font-size: 0.8em;
+  background-color: #0071e3;
+  padding: 12px 0;
+  margin-top: 70px;
+}
+.shop-link {
+  font-size: 0.8em;
+  background-color: #f5f5f7;
+  text-align: center;
+  padding: 12px 0;
+}
+.shop-link a {
+  text-decoration: none;
+  color: #06c;
+}
+.shop-link a:hover {
+  text-decoration: underline;
+}
